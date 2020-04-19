@@ -1,0 +1,451 @@
+---
+pagetitle: "JHU IRB Form"
+output: word_document
+always_allow_html: true
+---
+
+```{r,include=FALSE}
+library(flextable)
+library(tibble)
+```
+
+
+
+### JHSPH IRB Research Plan for New Data Collection
+
+
+**PI Name:**
+
+**Study Title:**
+
+**IRB Number:**
+
+**PI Version No. / Date:**
+
+<br> 
+
+#### I. Aims of the Study:
+
+Describe the aims/objectives of the research and/or the project’s research questions or hypotheses.
+
+#### II.	Background and Rationale:
+
+Explain why this study is being done.  Summarize briefly what is already known about the issue and reference previously published research, if relevant.
+
+#### III. Study Design
+
+**A. Provide a BRIEF overview of your study design and methods.**
+
+The study design must relate to your stated aims/objectives.  DETAILS WILL BE REQUESTED LATER.  If your study also involves analysis of existing data, please complete Section XI, “Secondary Data Analysis of Existing Data” in the last part of this research plan.  If your study ONLY involves analysis of existing data, please use the research plan template for secondary data analysis (JHSPH IRB Research Plan for Secondary Data Analysis of Existing Data/Specimens)  
+
+**B. Provide a sample size and a justification as to how you arrived at that number.**
+
+If you use screening procedures to arrive at a final sample a table may be helpful.   
+
+
+#### IV. Participants
+
+Describe the study participants and the population from which they will be drawn.  Specify the inclusion and exclusion criteria.  If you plan to include children, note their ages and whether you will include children in foster care. Note if the participants are particularly vulnerable in terms of cognitive limitations, education, legal migration status, incarceration, poverty, or some combination of factors. 
+
+**A. Inclusion Criteria:** 
+
+	
+
+**B. Exclusion Criteria:**
+
+NOTE: If you are recruiting participants or receiving, accessing, or using data from a U.S. health care provider, HIPAA review is likely to be required.  If you plan to bring identifiable health information from a foreign country to a U.S. covered entity (e.g., lab at the Hopkins SOM), HIPAA may be triggered. Check “yes” to the HIPAA question in the PHIRST application.
+
+
+#### V. Study Procedures:
+
+In this section, provide details of your procedures, particularly as they relate to human subjects. If this is a multi-center study, make the role of JHSPH clear.  If the JHSPH will serve as data coordinating center, indicate in the sections below which procedures JHSPH will not be performing.  Additional information regarding data coordinating centers is requested in a later section.  If your study will develop in phases, address each item below by phase.
+
+
+**A.Recruitment Process:** 
+
+1.	Describe how you will identify, approach, and inform potential participants about your study.  Include details about who will perform these activities and what their qualifications are.
+
+
+2.	Address any privacy issues associated with recruitment.  If recruitment itself may put potential participants at risk (if study topic is sensitive, or study population may be stigmatized), explain how you will minimize these risks.
+
+**B.Consent Process:**
+
+1. Describe the following details about obtaining informed consent from study participants.  If a screening process precedes study enrollment, also describe the consent for screening.
+  a. Who will obtain informed consent, and their qualifications:
+	b. How, where, and when the consent discussion(s) will occur:
+	c. The process you will use to determine whether a potential participant meets eligibility criteria:
+	d. Whether you will obtain a signature from the participant or will use an oral consent process:
+	e. Whether you will obtain a legally authorized representative’s signature for adults lacking capacity:
+	f. If children are included in the study, if and how you will obtain assent from them:
+	g. If children are included in the study, how you will obtain permission for them to participate from their parent, legal guardian, or other legal authority (if child is in foster care or under government supervision):
+	h. If you are seeking a waiver of informed consent or assent, the justification for this request:
+	i. Whether you will include a witness to the consent process and why:
+	j. If the language is unwritten, explain how you will communicate accurate information to potential participants and whether you will use props or audio materials:
+
+2.	Identify the countries where the research will take place, and the languages that will be used for the consent process.  
+
+```{r,echo=FALSE}
+dt = tibble(Country = "", 
+            `Consent Documents` = "Adult Consent, Parental Permission, etc.",
+            Languages = "")
+
+dt %>%
+  flextable() %>%  
+  autofit() %>%
+  align(align = "center", part = "all")
+```
+
+
+3. Study Implementation 
+
+  a. Describe the procedures that participants will undergo.  If complex, insert a table below to help the reviewer navigate.  
+  b. Describe the number and type of study visits and/or contacts between the study team and the participant, how long they will last, and where/how they will take place.
+  c. Describe the expected duration of the study from the perspective of the individual participant and duration overall.
+  d. Provide a brief data analysis plan and a description of variables to be derived. 
+
+4.  Provide a brief data analysis plan and a description of variables to be derived. 
+
+5. Answer the following if they are relevant to your study design:
+
+  a. If the study has different arms, explain the process for assigning participants (intervention/control, case/control), including the sequence and timing of the assignment.
+  b. If human biospecimens (blood, urine, saliva, etc.) will be collected, provide details about who will collect the specimen, the volume (ml) and frequency of collection, how the specimen will be used, stored, identified, and disposed of when the study is over.  If specimens will be collected for use in future research (beyond this study), complete the “Biospecimen Repository” section below.
+  c. If genetic/genomic analyses are planned, address whether the data will be contributed to a GWAS or other large dataset.  Address returning unanticipated incidental genetic findings to study participants.
+  d. If clinical or laboratory work will be performed at JHU/JHH, provide the JH Biosafety Registration Number.
+  e. If you will perform investigational or standard diagnostic laboratory tests using human samples or data, clarify whether the tests are validated and/or the lab is certified (for example is CLIA certified in the U.S.).  Explain the failure rate and under what circumstances you will repeat a test.  For all human testing (biomedical, psychological, educational, etc.), clarify your plans for reporting test results to participants and/or to their families or clinicians.  Address returning unanticipated incidental findings to study participants.
+  f. If your study involves medical, pharmaceutical or other therapeutic intervention, provide the following information:
+  * Will the study staff be blind to participant intervention status?  
+  * Will participants receive standard care or have current therapy stopped?
+  * Will you use a placebo or non-treatment group, and is that justifiable?
+  * Explain when you may remove a participant from the study.
+  * What happens to participants on study intervention when the study ends?   
+  * Describe the process for referring participants to care outside the study, if needed.
+    
+#### VI. Data Custody, Management, Security, and Confidentiality Protections:
+
+Note:  Principal Investigators are responsible for Data Protection and Use throughout the life of the study. You will need all of the following: 
+a data security plan that addresses each stage: data collection, transfer/analysis, storage, and sharing;
+a data management plan overseeing data access, storage, etc.; 
+a data sharing plan that is consistent with obligations under the funding agreements associated with the study, and with the language in the consent documents.
+
+
+**Personally Identifiable Information (PII):**
+
+Please identify the Personally Identifiable Information (PII) that you may be collecting and using at any of the following stages of your study: Recruitment, Consent, and Study Implementation (Data Collection).
+
+```{r,echo=FALSE}
+
+dt = tibble::tribble(
+  ~ `Data Type`,                                                               ~`Recruitment & Consent`,    ~`Data Collection`,     
+  "Name, signature, initials, or other identifiable code",                              "No",                    "No", 
+  "Geographic identifier: address, GPS location, etc.",                                 "No",                    "No", 
+  "Dates:  birth, death, clinical service, discharge, etc.",                            "No",                    "No", 
+  "Contact information:  phone numbers, email address, etc.",                           "No",                    "No", 
+  "ID:  Social Security Number, driver’s license number, etc.",                         "No",                    "No", 
+  "Health record identifiers:  medical record, insurance plan number, etc.",            "No",                    "No", 
+  "Account numbers",                                                                    "No",                    "No", 
+  "Device identifiers:  e.g., implants",                                                "No",                    "No", 
+  "Internet identifiers:  IP address, social media accounts",                           "No",                    "No", 
+  "Biometric identifiers, including finger and voice prints",                           "No",                    "No", 
+  "Audio recordings",                                                                   "No",                    "No", 
+  "Video or full face photographic images",                                             "No",                    "No", 
+  "Genomic/genetic data",                                                               "No",                    "No", 
+  "Any other unique identifying number, characteristic, or code",                       "No",                    "No", 
+  "Other: Click here to enter text."       ,                                            "No",                    "No", 
+)
+
+
+dt %>%
+  flextable() %>%   autofit() %>%   align(align = "center", part = "all")
+
+
+```
+
+
+** Recruitment:**
+
+* Will you collect identifiers for the purpose of contacting potential participants?  Yes ☐  No ☐
+* If yes, will you retain the identifiers after the recruitment contact has been made?  Yes ☐   No x
+
+
+**A. Data Collection:** 
+
+Collection of data for a research study can take on many forms.  It can be as simple as gathering the data with pen and paper or developing an on-line adaptive survey that changes based on the participant’s answers.   Regardless of the method, PII collection for the purposes of identifying the participants will most likely be collected.   Once collected, the raw data should go through a de-identification process to further protect PII.
+
+
+In what form(s) will you collect and store PII?  When you respond, refer back to the table above; think of PII collected during recruitment, consent, data collection, and other study purposes.
+
+1. **Hard Copy/Paper:**  Yes ☐   No x
+
+* If yes, please answer the following: 
+  -  How will the data be kept secure during transfer from study collection site to storage site?
+  - Will the data be secured in a locked cabinet or room?   Yes ☐   No ☐ 
+  - If study IDs/Codes are used, will they be stored separately from the study data?    Yes ☐  No ☐
+  - Will the hard copy/paper be destroyed after data abstraction and cleaning are complete?  Yes ☐   No ☐ 
+* If No, when do you plan to destroy the hard copies?  
+
+2. **Electronic:**   Yes x   No ☐
+
+* If yes, please answer the following:
+  - Will the data be collected or stored on a portable device (laptop, mobile phone, tablet, PDA) Yes x  No ☐ 
+    - If Yes, will the device be protected by encryption?   Yes ☐   No x
+  - Will the device(s) be study-owned or privately-owned (e.g., personally owned by data collectors or study participants?)  Personally owned x   Study provided ☐ Note:  If personally owned, please address the privacy and data security risks under VII. Risks below.
+  - Is the app (application)/website used for data collection being developed in-house (Hopkins) or by a 3rd party vendor? In-house ☐   3rd party x
+    - If 3rd party, provide the name of vendor and URL: 
+
+* Identify Mobile Ecosystem (check all that apply):  Apple ☐   Google x   Website ☐
+  - Will the data be stored on a secure server (@JHSPH/on-site)?   Yes ☐   No x
+  - Will the data be stored in the Cloud/Web?   Yes x   No ☐
+  - Will it be encrypted?   Yes x   No ☐
+  - Will you be backing up your data?   Yes ☐   No x
+  
+3. **Audio Recording:**  Yes ☐   No x
+
+* If yes, please answer the following:
+  - Will you store the audio recording securely in a locked cabinet/room until transcription is complete?   Yes ☐   No ☐	
+  - Will you use a transcription service?   Yes ☐*   No ☐ 
+    - If yes, if the PII comes from JHH/JHHS, you must use an approved vendor; otherwise, be aware of the data security protections that the transcription service provides.
+  - Will the audio recording be destroyed immediately after transcription?   Yes ☐   No ☐
+    - If no, why not? How long will it be retained?   
+
+
+4. **Photograph/Video:**   Yes ☐   No x
+
+* If yes, please answer the following:
+  - Will the photographs/videos be stored securely in a locked cabinet or room?   Yes ☐   No ☐
+  - Will the photograph/video be destroyed?   Yes ☐   No ☐
+    - If yes, when? 
+  
+**B. PII De-Identification of Data Used for this Study:** 
+
+* When will you destroy the PII and/or the code linking the PII with the study ID?
+* What is the method you will use to de-identify the data?  
+* Is your research data governed by HIPAA (U.S. clinical data remaining within the covered entity)? Yes ☐   No x
+  - If yes, who is doing the de-identification?  
+  - If yes, what level of de-identification will you achieve (Limited data set?  De-identified?) 
+
+
+**C. Data Storage and Analysis:** 
+
+One of the keys to protecting PII is the proper use of tools to share and conduct your analysis.  JH and JHSPH offers several options for you to consider.  Please select the systems that you plan to use to protect your study data by clicking the box.  Consult JHSPH IT for assistance if needed.
+
+* ☐ **JH Virtual Desktop:**  The Hopkins Institute for Clinical and Translational Research (ICTR) provides a virtual Windows desktop (SAFE Desktop).  It includes productivity software such as Microsoft Word and Excel, as well as statistical software, including SAS, Stata, R, R Studio, and Python.  100 GB of storage space is provided. 
+* ☐ **OneDrive-JHSPH:**  Managed by JHSPH IT and available only to people with a JHSPH ID, a file storage and file sharing solution in the Microsoft cloud for faculty, staff, and students.  With OneDrive, you can store files and access them anywhere with internet access. (https://my.jhsph.edu/Offices/InformationTechnology/ComputerSupport/SharedFolders/OneDrive-JHSPH/Pages/default.aspx)
+* ☐ **JHU OneDrive:**  Managed by IT@JH, personal cloud storage component of the Office 365 produce suite that allows users to store and share documents and files from any device with an internet connection.  Share documents with colleagues, inside and outside of JHU (no JHED ID required).  (https://it.johnshopkins.edu/services/collaboration_tools/OneDrive/)
+* ☐ **JHSPH RedCAP:**  These are departmentally managed applications. RedCAP is an application designed for collaborative research projects.  
+* ☐ **JHSPH HPCC:** High Performance Computing Cluster (HPCC:  https://jhpce.jhu.edu/) can provide the high capacity computing required for very large data sets.  
+* ☐ **JHSPH Sharepoint:** For user-controlled private web sites, secure document storage, navigable directories, contacts and people searches, increased collaboration and sharing opportunities.
+(https://my.jhsph.edu/Offices/InformationTechnology/CommunicationServices/MyJHSPH/Pages/default.aspx) 
+* ☐ **Independent Departmental Servers and Systems:**  These servers are typically managed by departmental or research team IT staff.  Because these servers are not centrally managed by JHSPH IT, all documentation regarding data security protections will need to be provided by the owner/administrator of the server.  This responsibility may fall to the data owners (PI).
+* x **Other:**  Please provide details regarding any other systems being utilized, for example Qualtrics, ODK, etc.  Examples may include servers and applications located at another university participating in your study or a 3rd party web-based application.   
+
+**D. Other Data Security Measures:**
+
+In addition to the details regarding data collection, please review the following questions.  This additional information will be utilized to assist in the development of a comprehensive Data Security plan.  This would include the systems used to analyze the data, data security contacts and additional requirements.
+
+1. During the analysis phase, do you plan to use computer systems that are not managed by JHSPH or JH?   Yes x   No ☐
+  - If yes, please explain: 
+2. Do you have a designated person on your research team other than the PI who is the technical contact for a Data Security plan?   Yes ☐   No x
+  - If yes, please provide a contact name:
+3. Does your sponsor have other specific data security requirements for the study data? Yes ☐ No x
+  - If possible, please explain:   
+4. Please add any other information that you believe is relevant to data security.
+
+**E. Certificate of Confidentiality:** 
+
+All NIH studies include Certificate of Confidentiality protections with the grant; the consent form must include the C of C language provided in our template.  Other funders may obtain C of C protections through NIH.  (https://humansubjects.nih.gov/coc/index) 
+
+- Does the study have Certificate of Confidentiality protections?  Yes x   No ☐
+
+**F. Data Sharing and Disclosure:**
+
+* Please describe your data sharing plan, including whether you plan to share your data with your sponsors or with other investigators.  Explain whether the shared or disclosed data will be individually identifiable. Your data sharing plan should be consistent with Sponsor requirements, and the consent document should include a description of your data sharing plan.
+* Are there laws limiting data sharing in the country where the research site(s) is located?  If yes, please address those limitations and how you will comply with them.
+* Will you make your data publicly available?  If yes, what is your plan for de-identification?
+* Will you deposit it into a repository for broader use?  If yes, identify the repository and provide information about the data protections.
+
+**G. JHM Clinical Records:** 
+
+* Will you use clinical data of 500 records or more from Johns Hopkins Hospital and its affiliates?  Yes ☐*   No x
+ - If yes, please complete the JHM Data Security Checklist available on the JHSPH IRB website:  www.jhsph.edu/irb and upload a copy of the checklist to the “Miscellaneous” section.
+
+
+#### VII.  Risks of the Study:
+
+* Describe the risks, discomforts, and inconveniences associated with the study and its procedures, including physical, psychological, emotional, social, legal, or economic risks, and the risk of a breach of confidentiality.  These risks should be described in the consent documents.
+* Describe steps you will take to mitigate or minimize each of the risks described above.  Include a description of your efforts to arrange for care or referral for participants who may need it.
+* Describe the anticipated frequency and severity of the harms associated with the risks identified above; for example, if you are performing “x” test/assessment, or dispensing “y” drug, how often do you expect an “anticipated” adverse reaction to occur in a study participant, and how severe do you expect that reaction to be?  
+* Describe the research burden for participants, including time, inconvenience, out of pocket costs, etc. 
+* Describe how participant privacy, and if relevant – family privacy - will be protected during data collection if sensitive questions are included in interviews, or if study visits occur in the home setting. 
+
+#### VIII.  Direct Personal and Social Benefits:
+
+* Describe any potential direct benefits the study offers to participants (“payment” for participation is not a direct personal benefit).
+* Describe potential societal benefits likely to derive from the research, including value of knowledge learned.
+
+#### IX. 	Payment or Token of Appreciation:  
+
+* Do you plan to provide a non-monetary token of appreciation (food, soap, tea, chlorine tablets, etc.) to study participants?  If yes, please describe below.
+* If you plan to provide a monetary payment, describe the form, amount, and schedule of payment to participants. Reimbursement for travel or other expenses is not “payment,” and if the study will reimburse, explain.
+* Include the possible total remuneration and any consequences for not completing all phases of the research.
+
+
+#### X. Study Management:
+
+* **Oversight Plan:** 
+  - Describe how the study will be managed.
+  - What are the qualifications of study personnel managing the project?
+  - How will non-professional personnel (data collectors) involved with the data collection and analysis be trained in human subjects research protections?  (Use the JHSPH Ethics Field Training Guide available on the JHSPH IRB website:  www.jhsph.edu/irb)
+  - If the PI will not personally be on-site throughout the data collection process, provide details about PI site visits, the supervision over consent and data collection, and the communication plan between the PI and study team.
+* **Recordkeeping**  
+  - Describe how you plan to ensure that the study team follows the protocol and properly records and stores study data collection forms, IRB regulatory correspondence, and other study documentation.  For assistance, contact:  housecall@jhu.edu
+* **Safety Monitoring:**
+  - Describe how participant safety will be monitored as the study progresses, by whom, and how often.  Will there be a medical monitor on site?  If yes, who will serve in that role?
+  - If a Data Safety Monitoring Board (DSMB), or equivalent will be established, describe the following:
+  - The DSMB membership, affiliation and expertise.
+    - The charge or charter to the DSMB.
+    - Plans for providing DSMB reports to the IRB
+  - Describe plans for interim analysis and stopping rules, if any.
+* **Reporting Unanticipated Problems/Adverse Events (AEs) to the IRB (all studies must complete this section):** Describe your plan for reporting to the IRB and (if applicable) to the sponsor.  Include your plan for government-mandated reporting of abuse or illegal activity. 
+* **Other IRBs/Ethics Review Boards: ** 
+If other IRBs will review the research, provide the name and contact information for each IRB/ethics review board and its Federal Wide Assurance, if it has one (available on OHRP’s website at http://www.hhs.gov/ohrp/assurances).  For federally funded studies, subrecipient AND subrecipient’s IRB MUST have a Federal Wide Assurance (FWA) number.
+```{r,echo=FALSE}
+
+dt = tibble::tribble(
+  ~ `Non-JHSPH  IRB/REC`,  ~`FWA`,
+   " ",                     " "
+)
+
+dt %>%
+  flextable() %>%   autofit() %>%   align(align = "center", part = "all")
+
+```
+* **“Engaged” in Human Subjects Research:** For studies that involve collaboration with non-JHSPH institutions, complete the chart below by describing the collaboration and the roles and responsibilities of each partner, including the JHSPH investigator.  This information helps us determine what IRB oversight is required for each party. Complete the chart for all multi-collaborator studies.
+```{r,echo=FALSE}
+dt = tibble::tribble(
+  ~`Activity`,                                         ~`Site_1`,
+"For federally funded studies, collaborators’ FWA",       " ",
+"Primary Grant/Contract Recipient",                       " ",
+"Grant/Contract Subrecipient",                            " ",
+"Hiring Data Collectors",                                 " ",
+"Training Data Collectors",                               " ",
+"Obtaining Informed Consent and/or Identifiable Data",    " ",
+"Accessing/Analyzing Identifiable Data",                  " ",
+"Overseeing storage, access and use of biospecimens",     " ",
+)
+
+dt %>%
+  flextable() %>%   autofit() %>%   align(align = "center", part = "all")
+
+```
+
+#### XI. Secondary Data Analysis of Existing Data:
+
+*	**Study Design:**
+    - Describe your study design and methods.  The study design must relate to your stated aims/objectives.  
+    - Provide an estimated sample size and an explanation for that number.
+    - Provide a brief data analysis plan and a description of variables to be derived.
+* **Participants**
+    - Describe the subjects who provided the original data and the population from which they were drawn.  Note: If you are receiving, accessing, or using data from a U.S. health care provider, the need for HIPAA review is likely.  If you plan to bring identifiable health information from a foreign country to a U.S. covered entity (e.g., lab at the Hopkins SOM), HIPAA may be triggered.  If either of these conditions is met, check “yes” to the HIPAA question in the PHIRST application.  
+	  - If you plan to analyze human specimens or genetic/genomic data, provide details about the source of those specimens and whether they were collected using an informed consent document.  If yes, explain whether your proposed use is “consistent with” the scope of the original consent, if it potentially introduces new analyses beyond the scope of the original consent, and/or if it introduces new sensitive topics (HIV/STDs, mental health, addiction) or cultural/community issues that may be controversial.
+  - Explain whether (and how) you plan to return results to the participants either individually or as a group.
+
+#### XII. Oversight Plan for Student-Initiated Studies:  							
+
+* For student-initiated studies, explain how the PI will monitor the student’s adherence to the IRB-approved research plan, such as communication frequency and form, training, reporting requirements, and anticipated time frame for the research.  Describe who will have direct oversight of the student for international studies if the PI will not personally be located at the study site, and their qualifications.
+* What is the data custody plan for student-initiated research?  (Note:  Students may not take identifiable information with them when they leave the institution.)  
+
+
+
+#### XIII.	Creation of a Biospecimen Repository: 						
+
+Explain the source of the biospecimens, if not described above, what kinds of specimens will be retained over time.  Clarify whether the specimens will be obtained specifically for repository purposes, or will be obtained as part of the core study and then retained in a repository.
+
+* Describe where the biospecimens will be stored and who will be responsible for them.
+* Describe how long the biospecimens will be stored, and what will happen at the end of that period.
+* Explain whether the biospecimens will be shared with other investigators, inside and outside of JHU, how the decision to share will be made, and by whom.  Include your plans, if any, for commercial use.  Also explain how downstream use of the specimen will be managed, and what will happen to left-over specimens.  
+* Describe whether future research using the biospecimens will include specimen derivation and processing (cell lines, DNA/RNA, etc.), genomic analyses, or any other work which could increase risk to participants. Explain what additional protections will be provided to participants.
+* If future research could yield unanticipated incidental findings (e.g., an unexpected finding with potential health importance that is not one of the aims of the study) for a participant, do you intend to disclose those findings to the study participant?  Please explain your position.
+* Explain whether the specimens will be identifiable, and if so, how they will be coded, who will have access to the code, and whether the biospecimens will be shared in linked (identifiable) form.
+* Explain whether the repository will have Certificate of Confidentiality protections. 
+* Explain whether a participant will be able to withdraw consent to use a biospecimen, and how the repository will handle a consent withdrawal request.
+* Describe data and/or specimen use agreements that will be required of users.  Provide a copy of any usage agreement that you plan to execute with investigators who obtain biospecimens from you.
+
+#### XIV. Data Coordinating Center:  								
+
+Complete if JHSPH serves as the Data Coordinating Center.
+   
+* How will the study procedures be developed?  
+* How will the study documents that require IRB approval at each local site be developed?  Will there be some sort of steering or equivalent committee that will provide central review and approval of study documents, or will template consent forms, recruitment materials, data collection forms, etc. be developed by and provided to the local sites by the coordinating center without external review? 
+* Will each local clinical site be overseen by its own IRB with an FWA, or will a Single IRB review the study?  State whether the coordinating center will collect IRB approvals and renewals from the clinical centers; if not, explain why.
+* How will the coordinating center provide each local site with the most recent version of the protocol and other study documents?  What will be the process for requesting that these updates be approved by local clinical center IRBs?
+* What is the plan for collecting data, managing the data, and protecting the data at the coordinating center? 
+* What is the process for reporting and evaluating protocol events and deviations from the local sites? Who has overall responsibility for overseeing subject safety: the investigators at the recruitment site, the Coordinating Center, the Steering Committee, or a Data and Safety Monitoring Board (DSMB)? Is there a DSMB that will evaluate these reports and provide summaries of safety information to all the reviewing IRBs, including the coordinating center IRB?  Please note that if there is a DSMB for the overall study, then the coordinating center PI does not have to report to the coordinating center IRB each individual adverse event/problem event that is submitted by the local site PIs.
+* Some FDA regulated studies have different AE reporting criteria than that required by the IRB (IRB Policy No. 103.06).  How will you reconcile the different requirements, and who is responsible for this reconciliation? 
+* Who is responsible for compliance with the study protocol and procedures and how will the compliance of the local sites be monitored and reviewed?  How will issues with compliance be remedied?
+
+#### XV. Drug Products, Vitamins, Food and Dietary Supplements:
+
+Complete this section if your study involves a drug, botanical, food, dietary supplement or other product that will be applied, inhaled, ingested or otherwise absorbed by the study participants.  If you will be administering drugs, please upload the product information.
+
+* List the name(s) of the study product(s), and the manufacturer/source of each product.
+```{r,echo=FALSE}
+
+dt = tibble::tribble(
+  ~ `Name of Product`,         ~`Manufacturer or Source`,
+   " ",                                " "
+)
+
+dt %>%
+  flextable() %>%   autofit() %>%   align(align = "center", part = "all")
+
+```
+* List each study product by name and indicate its approved/not approved status.
+```{r,echo=FALSE}
+
+dt = tibble::tribble(
+  ~ `Approved by the FDA and Commercially Available`, ~`Approved by Another Govt Entity (provide name)`, ~`Cleared for Use at Local Study Site`,
+   " ",                                " ",                                 "",
+)
+
+dt %>%
+  flextable() %>%   autofit() %>%   align(align = "center", part = "all")
+
+```
+* If your study product has an Investigational New Drug (IND) application through the U.S. Food and Drug Administration, provide the IND number, and the Investigators Brochure. 
+* If your study product is a marketed drug, provide the package inserts or other product information.  If the study product WILL NOT be used for its approved indication, dose, population, and route of administration, provide a detailed rationale justifying the off-label use of the study product. 
+* If the study product does not require FDA approval (e.g., dietary supplements, botanicals, products not subject to the U.S. FDA, etc.), provide safety information (as applicable) and a certificate of analysis.
+* Explain who will be responsible for drug management and supply, labeling, dispensing, documentation and recordkeeping.  Complete and upload into PHIRST the Drug Data Sheet available on the JHSPH IRB website at www.jhsph.edu/irb.
+* What drug monitoring and/or regulatory oversight will be provided as part of the study?
+
+
+#### XVI. Medical Devices:
+
+Complete this section if your study will involve an approved or investigational medical device (diagnostic, non-significant risk, significant risk).  
+
+* List the name(s) of the study product(s), the manufacturer/source of each product, and whether or not it is powered (electric, battery).  Provide product information.  If it is electric, upload documentation of clinical engineering approval or its equivalent from a local authority, to ensure that the device is in good working order.
+```{r,echo=FALSE}
+
+dt = tibble::tribble(
+  ~ `Name of study Product`,     ~`Manufacturer or Source`,           ~`Powered?`,
+   " ",                                " ",                                 "",
+)
+
+dt %>%
+  flextable() %>%   autofit() %>%   align(align = "center", part = "all")
+
+```
+* List each study product by name and indicate its status as approved by a government authority or not approved.
+```{r,echo=FALSE}
+
+dt = tibble::tribble(
+  ~ `Approved by the FDA and Commercially Available`, ~`Approved by Another Govt Entity (provide name)`, ~`Cleared for Use at Local Study Site`,
+   " ",                                " ",                                 "",
+)
+
+dt %>%
+  flextable() %>%   autofit() %>%   align(align = "center", part = "all")
+
+```
+* If your investigational device is Exempt from the FDA IDE regulations, explain which section of the code applies to your device and why it meets the criteria provided.  If it is a diagnostic device, provide pre-clinical information about the sensitivity and specificity of the test and the anticipated failure rate.  If you plan to provide the results to participants or their physicians, justify doing so, and explain how those results will validated (or not) against the current “gold standard”.  
+* If you believe the investigational device is not IDE exempt under 21CFR 812.2(c), but is a “Non-Significant Risk” device considered to have an approved IDE application, provide information from the manufacturer supporting that position.
+* If you are using an investigational device that is a Significant Risk Device, provide the IDE number given by the FDA, or if not under FDA jurisdiction, explain why it is appropriate to use this device in this study.  Provide a description of the device, and upload a picture or manufacturing schematics into PHIRST.  Provide any other information relevant to a determination of its safety to be used for the purposes outlined in this research plan.
